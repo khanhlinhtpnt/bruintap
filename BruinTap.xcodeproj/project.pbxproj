@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8CB350F91FEB166000EF4120 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB350F81FEB166000EF4120 /* AppDelegate.swift */; };
+		8CB350FB1FEB166000EF4120 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB350FA1FEB166000EF4120 /* ViewController.swift */; };
+		8CB350FE1FEB166000EF4120 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CB350FC1FEB166000EF4120 /* Main.storyboard */; };
+		8CB351001FEB166000EF4120 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CB350FF1FEB166000EF4120 /* Assets.xcassets */; };
+		8CB351031FEB166000EF4120 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CB351011FEB166000EF4120 /* LaunchScreen.storyboard */; };
+		8CB3510E1FEB166000EF4120 /* BruinTapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB3510D1FEB166000EF4120 /* BruinTapTests.swift */; };
+		8CB351191FEB166000EF4120 /* BruinTapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB351181FEB166000EF4120 /* BruinTapUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8CB3510A1FEB166000EF4120 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CB350ED1FEB166000EF4120 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CB350F41FEB166000EF4120;
+			remoteInfo = BruinTap;
+		};
+		8CB351151FEB166000EF4120 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CB350ED1FEB166000EF4120 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CB350F41FEB166000EF4120;
+			remoteInfo = BruinTap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8CB350F51FEB166000EF4120 /* BruinTap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BruinTap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CB350F81FEB166000EF4120 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8CB350FA1FEB166000EF4120 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8CB350FD1FEB166000EF4120 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8CB350FF1FEB166000EF4120 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8CB351021FEB166000EF4120 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8CB351041FEB166000EF4120 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CB351091FEB166000EF4120 /* BruinTapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BruinTapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CB3510D1FEB166000EF4120 /* BruinTapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BruinTapTests.swift; sourceTree = "<group>"; };
+		8CB3510F1FEB166000EF4120 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CB351141FEB166000EF4120 /* BruinTapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BruinTapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CB351181FEB166000EF4120 /* BruinTapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BruinTapUITests.swift; sourceTree = "<group>"; };
+		8CB3511A1FEB166000EF4120 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8CB350F21FEB166000EF4120 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CB351061FEB166000EF4120 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CB351111FEB166000EF4120 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8CB350EC1FEB166000EF4120 = {
+			isa = PBXGroup;
+			children = (
+				8CB350F71FEB166000EF4120 /* BruinTap */,
+				8CB3510C1FEB166000EF4120 /* BruinTapTests */,
+				8CB351171FEB166000EF4120 /* BruinTapUITests */,
+				8CB350F61FEB166000EF4120 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8CB350F61FEB166000EF4120 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CB350F51FEB166000EF4120 /* BruinTap.app */,
+				8CB351091FEB166000EF4120 /* BruinTapTests.xctest */,
+				8CB351141FEB166000EF4120 /* BruinTapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8CB350F71FEB166000EF4120 /* BruinTap */ = {
+			isa = PBXGroup;
+			children = (
+				8CB350F81FEB166000EF4120 /* AppDelegate.swift */,
+				8CB350FA1FEB166000EF4120 /* ViewController.swift */,
+				8CB350FC1FEB166000EF4120 /* Main.storyboard */,
+				8CB350FF1FEB166000EF4120 /* Assets.xcassets */,
+				8CB351011FEB166000EF4120 /* LaunchScreen.storyboard */,
+				8CB351041FEB166000EF4120 /* Info.plist */,
+			);
+			path = BruinTap;
+			sourceTree = "<group>";
+		};
+		8CB3510C1FEB166000EF4120 /* BruinTapTests */ = {
+			isa = PBXGroup;
+			children = (
+				8CB3510D1FEB166000EF4120 /* BruinTapTests.swift */,
+				8CB3510F1FEB166000EF4120 /* Info.plist */,
+			);
+			path = BruinTapTests;
+			sourceTree = "<group>";
+		};
+		8CB351171FEB166000EF4120 /* BruinTapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8CB351181FEB166000EF4120 /* BruinTapUITests.swift */,
+				8CB3511A1FEB166000EF4120 /* Info.plist */,
+			);
+			path = BruinTapUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8CB350F41FEB166000EF4120 /* BruinTap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CB3511D1FEB166000EF4120 /* Build configuration list for PBXNativeTarget "BruinTap" */;
+			buildPhases = (
+				8CB350F11FEB166000EF4120 /* Sources */,
+				8CB350F21FEB166000EF4120 /* Frameworks */,
+				8CB350F31FEB166000EF4120 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BruinTap;
+			productName = BruinTap;
+			productReference = 8CB350F51FEB166000EF4120 /* BruinTap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8CB351081FEB166000EF4120 /* BruinTapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CB351201FEB166000EF4120 /* Build configuration list for PBXNativeTarget "BruinTapTests" */;
+			buildPhases = (
+				8CB351051FEB166000EF4120 /* Sources */,
+				8CB351061FEB166000EF4120 /* Frameworks */,
+				8CB351071FEB166000EF4120 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CB3510B1FEB166000EF4120 /* PBXTargetDependency */,
+			);
+			name = BruinTapTests;
+			productName = BruinTapTests;
+			productReference = 8CB351091FEB166000EF4120 /* BruinTapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8CB351131FEB166000EF4120 /* BruinTapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CB351231FEB166000EF4120 /* Build configuration list for PBXNativeTarget "BruinTapUITests" */;
+			buildPhases = (
+				8CB351101FEB166000EF4120 /* Sources */,
+				8CB351111FEB166000EF4120 /* Frameworks */,
+				8CB351121FEB166000EF4120 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CB351161FEB166000EF4120 /* PBXTargetDependency */,
+			);
+			name = BruinTapUITests;
+			productName = BruinTapUITests;
+			productReference = 8CB351141FEB166000EF4120 /* BruinTapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8CB350ED1FEB166000EF4120 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Linh Huynh";
+				TargetAttributes = {
+					8CB350F41FEB166000EF4120 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					8CB351081FEB166000EF4120 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8CB350F41FEB166000EF4120;
+					};
+					8CB351131FEB166000EF4120 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8CB350F41FEB166000EF4120;
+					};
+				};
+			};
+			buildConfigurationList = 8CB350F01FEB166000EF4120 /* Build configuration list for PBXProject "BruinTap" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8CB350EC1FEB166000EF4120;
+			productRefGroup = 8CB350F61FEB166000EF4120 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CB350F41FEB166000EF4120 /* BruinTap */,
+				8CB351081FEB166000EF4120 /* BruinTapTests */,
+				8CB351131FEB166000EF4120 /* BruinTapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CB350F31FEB166000EF4120 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CB351031FEB166000EF4120 /* LaunchScreen.storyboard in Resources */,
+				8CB351001FEB166000EF4120 /* Assets.xcassets in Resources */,
+				8CB350FE1FEB166000EF4120 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CB351071FEB166000EF4120 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CB351121FEB166000EF4120 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CB350F11FEB166000EF4120 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CB350FB1FEB166000EF4120 /* ViewController.swift in Sources */,
+				8CB350F91FEB166000EF4120 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CB351051FEB166000EF4120 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CB3510E1FEB166000EF4120 /* BruinTapTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CB351101FEB166000EF4120 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CB351191FEB166000EF4120 /* BruinTapUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8CB3510B1FEB166000EF4120 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CB350F41FEB166000EF4120 /* BruinTap */;
+			targetProxy = 8CB3510A1FEB166000EF4120 /* PBXContainerItemProxy */;
+		};
+		8CB351161FEB166000EF4120 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CB350F41FEB166000EF4120 /* BruinTap */;
+			targetProxy = 8CB351151FEB166000EF4120 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8CB350FC1FEB166000EF4120 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CB350FD1FEB166000EF4120 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8CB351011FEB166000EF4120 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CB351021FEB166000EF4120 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8CB3511B1FEB166000EF4120 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8CB3511C1FEB166000EF4120 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8CB3511E1FEB166000EF4120 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BruinTap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = linhhuynh.BruinTap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8CB3511F1FEB166000EF4120 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BruinTap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = linhhuynh.BruinTap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8CB351211FEB166000EF4120 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BruinTapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = linhhuynh.BruinTapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BruinTap.app/BruinTap";
+			};
+			name = Debug;
+		};
+		8CB351221FEB166000EF4120 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BruinTapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = linhhuynh.BruinTapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BruinTap.app/BruinTap";
+			};
+			name = Release;
+		};
+		8CB351241FEB166000EF4120 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BruinTapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = linhhuynh.BruinTapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BruinTap;
+			};
+			name = Debug;
+		};
+		8CB351251FEB166000EF4120 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BruinTapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = linhhuynh.BruinTapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BruinTap;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8CB350F01FEB166000EF4120 /* Build configuration list for PBXProject "BruinTap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CB3511B1FEB166000EF4120 /* Debug */,
+				8CB3511C1FEB166000EF4120 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CB3511D1FEB166000EF4120 /* Build configuration list for PBXNativeTarget "BruinTap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CB3511E1FEB166000EF4120 /* Debug */,
+				8CB3511F1FEB166000EF4120 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CB351201FEB166000EF4120 /* Build configuration list for PBXNativeTarget "BruinTapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CB351211FEB166000EF4120 /* Debug */,
+				8CB351221FEB166000EF4120 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CB351231FEB166000EF4120 /* Build configuration list for PBXNativeTarget "BruinTapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CB351241FEB166000EF4120 /* Debug */,
+				8CB351251FEB166000EF4120 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8CB350ED1FEB166000EF4120 /* Project object */;
+}
